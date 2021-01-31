@@ -218,11 +218,20 @@
   <script type="text/javascript" src="slide-show.js"></script>
   <script>
     //var s = skrollr.init();
-    if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
-      skrollr.init({
-        forceHeight: false
-      });
-    }
+    var total_images = $("body img").length;
+    var images_loaded = 0;
+    $(document).ready(function(e) { 
+            $("body").find('img').each(function() {
+            var fakeSrc = $(this).attr('src');
+            $("<img>").attr("src", fakeSrc).load(function() {
+                images_loaded++;
+                if (images_loaded >= total_images) {
+                    // now all images are loaded.
+                    var s = skrollr.init();             
+                }
+            }); 
+        });
+    });  
   </script>
 </body>
 

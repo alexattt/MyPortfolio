@@ -21,11 +21,6 @@
   scroll-behavior: smooth;
 }
 
-#skrollr-body {
-  height: 100%;
-  width: 100%;
-}
-
 h1, h2, h3, h4, p, a, div {
   background-color: transparent;
 }
