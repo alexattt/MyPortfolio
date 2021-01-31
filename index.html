@@ -13,7 +13,7 @@
 
 <body>
   <progress max="100" value="0"></progress>
-  <div id="skrollr-body" class="container" data-0="transform:translateX(0%);" data-1000="transform:translateX(-300%);">
+  <div class="container" data-0="transform:translateX(0%);" data-1000="transform:translateX(-300%);">
     <section id="page-one">
       <div class="content">
         <div class="page-one-flex">
@@ -216,19 +216,6 @@
   <script type="text/javascript" src="animations.js"></script>
   <script type="text/javascript" src="modal.js"></script>
   <script type="text/javascript" src="slide-show.js"></script>
-  <script>
-    //var s = skrollr.init();
-    if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && $(window).width() > 1024) { 
-        skrollr.init();
-    }
-    $(window).on('resize', function () {
-        if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-            if ($(window).width() <= 1024) {
-              skrollr.init().destroy();
-            }
-        }
-    });
-  </script>
 </body>
 
 </html>

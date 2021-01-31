@@ -1,3 +1,5 @@
+var s = skrollr.init();
+
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.to('progress', {

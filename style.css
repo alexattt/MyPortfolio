@@ -21,9 +21,6 @@
   scroll-behavior: smooth;
 }
 
-html {
-  height: 100%;
-}
 
 h1, h2, h3, h4, p, a, div {
   background-color: transparent;
@@ -56,7 +53,7 @@ h1, h2, h3, h4, p, a, div {
 }
 
 progress {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   -webkit-appearance: none;
