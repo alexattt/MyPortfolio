@@ -11,12 +11,20 @@ gsap.to('progress', {
 
 var tl = gsap.timeline();
 
-tl.from(".welcome-msg", {duration: 1, y: 200, opacity: 0})
-  .from(".desc", {duration: 1, y: 100, opacity: 0})
-  .from(".blue-logo", {duration: 1, y: 100, opacity: 0})
-  .from(".pink-logo", {duration: 0.6, x: 5, y: 5, opacity: 0})
-  .from(".white-logo", {duration: 0.6, x: 6, y: 5, opacity: 0})
-  .from(".scroll", {duration: 1, y: -100, opacity: 0});
+document.addEventListener("DOMContentLoaded", function(event) {
+  window.onload = function() {
+     window.requestAnimationFrame(function() {
+        tl.from(".welcome-msg", {duration: 1, y: 200, opacity: 0})
+        .from(".desc", {duration: 1, y: 100, opacity: 0})
+        .from(".blue-logo", {duration: 1, y: 100, opacity: 0})
+        .from(".pink-logo", {duration: 0.6, x: 5, y: 5, opacity: 0})
+        .from(".white-logo", {duration: 0.6, x: 6, y: 5, opacity: 0})
+        .from(".scroll", {duration: 1, y: -100, opacity: 0});
+     });
+    
+  };
+
+});
 
 gsap.from(".pr", {
   duration: 1,
