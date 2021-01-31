@@ -13,7 +13,7 @@
 
 <body>
   <progress max="100" value="0"></progress>
-  <div class="container" id="skrollr-body" data-0="transform:translateX(0%);" data-1000="transform:translateX(-300%);">
+  <div class="container" data-0="transform:translateX(0%);" data-1000="transform:translateX(-300%);">
     <section id="page-one">
       <div class="content">
         <div class="page-one-flex">
@@ -213,32 +213,19 @@
       </div>
     </section>
   </div>
-
-  <script>
-    // Test here to check if on desktop / large screens.
-    if ( $(window).width() > 1024 ) {
-
-    // Save the instance of Skrollr to the Window.
-    window.skrollrInstance = skrollr.init({
-        forceHeight: false
-    });
-
-    // If not on a large screen.
-    } else {
-
-    //  If Skrollr is NOT undefined, let's do the work.
-    if ( window.skrollrInstance !== undefined ) {
-        // Use Skrollr's destroy() method on the instance.
-        window.skrollrInstance.destroy();
-        // Now set the variable to be completely undefined.
-        window.skrollrInstance = undefined;
-    }
-
-    }
-  </script>
   <script type="text/javascript" src="animations.js"></script>
   <script type="text/javascript" src="modal.js"></script>
   <script type="text/javascript" src="slide-show.js"></script>
+  <script>
+    var s = skrollr.init();
+    var _skrollr = skrollr.get(); 
+    var windowWidth = window.innerWidth;
+    console.log(windowWidth);
+
+    if ( windowWidth <= 1024 && _skrollr !== undefined ) {
+      _skrollr.destroy();
+    }
+  </script>
 </body>
 
 </html>

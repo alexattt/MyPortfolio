@@ -1,4 +1,4 @@
-gsap.registerPlugin(ScrollTrigger);
+/*gsap.registerPlugin(ScrollTrigger);
 
 gsap.to('progress', {
   value: 100,
@@ -82,5 +82,5 @@ gsap.from(".logo-column", {
     trigger: "#page-four.content",
     start: 'left+=900'
   }
-})
+})*/
 
