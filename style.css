@@ -570,7 +570,13 @@ input[type=submit]:hover {
   }
 }
 
-@media screen and (max-device-width: 740px) {
+@media screen and (max-device-width: 768px) {
+
+
+  .link {
+    font-size: 21px;
+    padding: 10px;
+  }
 
   .page-one-flex {
     display: block;
