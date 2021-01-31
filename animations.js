@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         .from(".desc", {duration: 1, y: 100, opacity: 0})
         .from(".blue-logo", {duration: 1, y: 100, opacity: 0})
         .from(".pink-logo", {duration: 0.6, x: 5, y: 5, opacity: 0})
-        .from(".white-logo", {duration: 0.6, x: 6, y: 5, opacity: 0})
+        .from(".white-logo", {duration: 0.6, x: 6, y: 5, opacity: 0}, '-=0.6')
         .from(".scroll", {duration: 1, y: -100, opacity: 0});
      });
     
@@ -60,7 +60,7 @@ gsap.from(".about-info", {
   opacity: 0,
   scrollTrigger: {
     trigger: "#page-three.content",
-    start: 'left+=500'
+    start: 'left+=400'
   }
 })
 
@@ -70,7 +70,7 @@ gsap.from(".contact-form-column", {
   opacity: 0,
   scrollTrigger: {
     trigger: "#page-four.content",
-    start: 'left+=750'
+    start: 'left+=650'
   }
 })
 
