@@ -700,3 +700,9 @@ input[type=submit]:hover {
     padding: 10px;
   }
 }
+
+@media screen and (max-width:767px){
+  html, body{
+     heigth:initial;
+  }
+}
