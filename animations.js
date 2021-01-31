@@ -23,7 +23,7 @@ gsap.from(".pr", {
   y: 300,
   opacity: 0,
   scrollTrigger: {
-    trigger: "#page-two.content",
+    trigger: "#page-two.content"
   }
 })
 
@@ -32,7 +32,7 @@ gsap.from(".ptwo-title", {
   x: -100,
   opacity: 0,
   scrollTrigger: {
-    trigger: "#page-two.content",
+    trigger: "#page-two.content"
   }
 })
 
@@ -42,7 +42,7 @@ gsap.from(".about-photo", {
   opacity: 0,
   scrollTrigger: {
     trigger: "#page-three.content",
-    start: 'left+=500',
+    start: 'left+=500'
   }
 })
 
@@ -52,7 +52,7 @@ gsap.from(".about-info", {
   opacity: 0,
   scrollTrigger: {
     trigger: "#page-three.content",
-    start: 'left+=500',
+    start: 'left+=500'
   }
 })
 
@@ -62,7 +62,7 @@ gsap.from(".contact-form-column", {
   opacity: 0,
   scrollTrigger: {
     trigger: "#page-four.content",
-    start: 'left+=750',
+    start: 'left+=750'
   }
 })
 
@@ -72,7 +72,7 @@ gsap.from(".logo-column", {
   opacity: 0,
   scrollTrigger: {
     trigger: "#page-four.content",
-    start: 'left+=900',
+    start: 'left+=900'
   }
 })
 
