@@ -489,7 +489,7 @@ input[type=submit]:hover {
 
 /* ***************** RESPONSIVE ***************** */
 
-@media (max-width: 1024px) {
+@media screen and (max-device-width: 1024px) {
   .container {
     position: absolute;
     display: -webkit-box;
@@ -564,7 +564,7 @@ input[type=submit]:hover {
   }
 }
 
-@media (max-width: 740px) {
+@media screen and (max-device-width: 740px) {
 
   .page-one-flex {
     display: block;
@@ -624,7 +624,7 @@ input[type=submit]:hover {
 
 }
 
-@media (max-width: 560px) {
+@media screen and (max-device-width: 560px) {
   .myLogo {
     display: block;
     width: 80%;
@@ -692,7 +692,7 @@ input[type=submit]:hover {
   }
 }
 
-@media (max-width: 410px) {
+@media screen and (max-device-width: 410px) {
   #page-two h1 {
     text-align: center;
     margin: 0;
