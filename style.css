@@ -25,6 +25,12 @@ h1, h2, h3, h4, p, a, div {
   background-color: transparent;
 }
 
+#skrollr-body {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+
 .container {
   position: fixed;
   top: 0;
