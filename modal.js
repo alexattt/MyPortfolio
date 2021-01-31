@@ -1,4 +1,9 @@
 var s = skrollr.init();
+window.addEventListener("resize", function() {
+  if (window.innerWidth < 1024) {
+    s.destroy();
+  };
+});
 
 const mod_arr = [];
 const trigg_arr = [];
