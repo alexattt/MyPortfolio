@@ -27,7 +27,7 @@ h1, h2, h3, h4, p, a, div {
 
 
 .container {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -52,7 +52,7 @@ h1, h2, h3, h4, p, a, div {
 }
 
 progress {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   -webkit-appearance: none;
@@ -68,11 +68,9 @@ progress::-webkit-progress-bar {
 }
 progress::-webkit-progress-value {
   background: linear-gradient(to left, var(--light-pink), var(--dark-pink), var(--dark-blue));
-  background-attachment: fixed;
 }
 progress::-moz-progress-bar {
   background: linear-gradient(to left, var(--light-pink), var(--dark-pink), var(--dark-blue));
-  background-attachment: fixed;
 }
 
 /* ***************** MAIN PAGE ***************** */
