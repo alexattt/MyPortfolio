@@ -3,7 +3,7 @@ if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navig
 }
 
 window.addEventListener('resize', function () {
-  if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) { // no reason to destroy on mobile
+  if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera|Opera Mini/i.test(navigator.userAgent)) { // no reason to destroy on mobile
       if (window.innerWidth <= 1024) {
         skrollr.init().destroy(); // skrollr.init() returns the singleton created above
       }
