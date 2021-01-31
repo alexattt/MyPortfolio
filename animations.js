@@ -84,7 +84,7 @@ if (window.innerWidth > 768) {
     opacity: 0,
     scrollTrigger: {
       trigger: "#page-four.content",
-      start: 'left+=650'
+      start: 'left+=750'
     }
   })
 
