@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="myLogo.svg" />
+  <script type="text/javascript" src="skrollr.js"></script>
+  <script type="text/javascript" src="gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+  <title>Alexandra Timofejeva</title>
+</head>
+
+<body>
+  <progress max="100" value="0"></progress>
+  <div class="container" data-0="transform:translateX(0%);" data-1000="transform:translateX(-300%);">
+    <section id="page-one">
+      <div class="content">
+        <div class="page-one-flex">
+          <header>
+            <a class="link" href="#">Home</a>
+            <a class="link" href="#page-two">Projects</a>
+            <a class="link" href="#page-three">About</a>
+            <a class="link" href="#page-four">Contact</a>
+          </header>
+          <p class="scroll">Scroll to learn more about me</p>
+            <svg class="myLogo" width="358" height="307" viewBox="0 0 358 307" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g class="white-logo" filter="url(#filter0_d)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M212.81 201.673L249.736 288.322L194.607 205.569L119.227 288.045L168.876 205.834L124.025 210.081L124.265 166.082L171.702 171.186L126.868 103.885L4 288.322L126.868 0L201.169 174.356L341.67 189.471L212.81 201.673Z" fill="url(#paint0_linear)"/>
+              </g>
+              <g class="pink-logo" filter="url(#filter1_d)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M218.366 206.117L255.291 292.767L200.163 210.013L124.782 292.489L174.431 210.278L129.581 214.525L129.82 170.527L177.257 175.63L132.423 108.329L9.55542 292.767L132.423 4.44431L206.725 178.8L347.225 193.915L218.366 206.117Z" fill="url(#paint1_linear)"/>
+              </g>
+              <g class="blue-logo" filter="url(#filter2_d)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M225.14 211.564L262.066 298.214L206.937 215.46L131.557 297.936L181.206 215.725L136.355 219.972L136.595 175.974L184.032 181.077L139.198 113.776L16.33 298.214L139.198 9.89139L213.499 184.247L354 199.362L225.14 211.564Z" fill="url(#paint2_linear)"/>
+              </g>
+              <defs>
+              <filter id="filter0_d" x="0" y="0" width="345.67" height="296.322" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+              <feOffset dy="4"/>
+              <feGaussianBlur stdDeviation="2"/>
+              <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+              </filter>
+              <filter id="filter1_d" x="5.55542" y="4.44431" width="345.67" height="296.322" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+              <feOffset dy="4"/>
+              <feGaussianBlur stdDeviation="2"/>
+              <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+              </filter>
+              <filter id="filter2_d" x="12.33" y="9.89139" width="345.67" height="296.322" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+              <feOffset dy="4"/>
+              <feGaussianBlur stdDeviation="2"/>
+              <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+              </filter>
+              <linearGradient id="paint0_linear" x1="341.67" y1="189.47" x2="51.6352" y2="187.891" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#68E3F9"/>
+              <stop offset="1" stop-color="white"/>
+              </linearGradient>
+              <linearGradient id="paint1_linear" x1="347.226" y1="193.915" x2="57.1906" y2="192.335" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#F55A9B"/>
+              <stop offset="1" stop-color="#980089"/>
+              </linearGradient>
+              <linearGradient id="paint2_linear" x1="354" y1="199.362" x2="63.9652" y2="197.782" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4F4ED7"/>
+              <stop offset="1" stop-color="#00F0FF"/>
+              </linearGradient>
+              </defs>
+              </svg>              
+          <h1 class="welcome-msg">Hi, I am <span class="myName">ALEXANDRA</span></h1>
+          <p class="desc">developer, robotics student, space enthusiast</p>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="page-two">
+      <div class="content">
+        <h1 class="ptwo-title">MY PROJECTS</h1>
+        <div class="project-grid">
+          <div class="pr project-1 trigger1">
+            <p>Coming soon</p>
+          </div>
+          <div class="modal1">
+            <div class="modal-content">
+                <span class="close-btn close-button1">CLOSE</span>
+                  <div class="mySlides project-info">
+                    <p class="project-title">PROJECT TITLE</p>
+                    <p class="project-link"><a href="">LINK TO PROJECT (GITHUB OR WEB, OR BOTH)</a></p>
+                    <p class="project-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit placerat integer lacus non enim purus aliquet neque a. Dignissim odio enim nisl, fermentum. Suspendisse consectetur venenatis felis nulla hac quam tristique convallis. Arcu sed adipiscing proin sit et. Eu at eget justo, nam etiam ligula. Quis semper gravida feugiat commodo. Cras vivamus enim quisque risus mauris. Sed aliquam viverra quam ut cras. <br>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit placerat integer lacus non enim purus aliquet neque a. Dignissim odio enim nisl, fermentum. Suspendisse consectetur venenatis felis nulla hac quam tristique convallis. Arcu sed adipiscing proin sit et. Eu at eget justo, nam etiam ligula.
+                    </p>
+                    <p class="tools-used">TOOLS USED: </p>
+                  </div>
+                  <div class="project-photos">
+                    <img class="mySlides" src="exmpl-project.png" alt="">
+                    <img class="mySlides" src="exmpl-project.png" alt="">
+                  </div>
+                  <button class="leftBtn w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                  <button class="rightBtn w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+            </div>
+          </div>
+
+          <div class="pr project-2 trigger2">
+            <p>Coming soon</p>
+          </div>
+          <div class="modal2">
+            <div class="modal-content">
+                <span class="close-btn close-button2">CLOSE</span>
+                <h1>Hello, I am a modal two!</h1>
+            </div>
+          </div>
+
+          <div class="pr project-3 trigger3">
+            <p>Coming soon</p>
+          </div>
+          <div class="modal3">
+            <div class="modal-content">
+                <span class="close-btn close-button3">CLOSE</span>
+                <h1>Hello, I am a modal three!</h1>
+            </div>
+          </div>
+          
+          <div class="pr project-4 trigger4">
+            <p>Coming soon</p>
+          </div>
+          <div class="modal4">
+            <div class="modal-content">
+                <span class="close-btn close-button4">CLOSE</span>
+                <h1>Hello, I am a modal four!</h1>
+            </div>
+          </div>
+
+          <div class="pr project-5 trigger5">
+            <p>Coming soon</p>
+          </div>
+          <div class="modal5">
+            <div class="modal-content">
+                <span class="close-btn close-button5">CLOSE</span>
+                <h1>Hello, I am a modal five!</h1>
+            </div>
+          </div>
+
+          <div class="pr project-6 trigger6">
+            <p>Coming soon</p>
+          </div>
+          <div class="modal6">
+            <div class="modal-content">
+                <span class="close-btn close-button6">Close</span>
+                <h1>Hello, I am a modal six!</h1>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="page-three">
+      <div class="content">
+        <div class="about-row">
+          <div class="about-photo">
+            <img src="myPhoto.jpg" alt="">
+            <p>ALEXANDRA TIMOFEJEVA</p>
+          </div>
+          <div class="about-info">
+            <p class="about-title">ABOUT ME</p>
+            <p class="about-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, pharetra vel ut nunc, tristique tempus. Arcu non sagittis et, tristique cursus nec ut morbi. Ultricies laoreet aliquet commodo scelerisque dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, pharetra vel ut nunc, tristique tempus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, pharetra vel ut nunc, tristique tempus. <br>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, pharetra vel ut nunc, tristique tempus. Arcu non sagittis et, tristique cursus nec ut morbi. Ultricies laoreet aliquet commodo scelerisque dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, pharetra vel ut nunc, tristique tempus. Arcu non sagittis et, tristique cursus nec ut morbi. Ultricies laoreet aliquet commodo scelerisque dui. <br>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, pharetra vel ut nunc, tristique tempus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="page-four">
+      <div class="content">
+        <div class="contact-row">
+
+          <div class="contact-form-column">
+            <h1>CONTACT ME</h1>
+            <div class="contact-form">
+              <form action="">
+                <label for="name">NAME</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">EMAIL</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">MESSAGE</label><br>
+                <textarea rows="10" cols="26" name="reply"></textarea>
+                <input type="submit" value="SEND">
+              </form>
+            </div>
+          </div>
+
+          <div class="logo-column">
+            <img src="linkedin-logo.svg" alt="" href=""> 
+            <img src="github-logo.svg" alt="" href="">
+            <img src="fb-logo.svg" alt="" href="">
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+  <script type="text/javascript" src="animations.js"></script>
+  <script type="text/javascript" src="modal.js"></script>
+  <script type="text/javascript" src="slide-show.js"></script>
+</body>
+
+</html>
