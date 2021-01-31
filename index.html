@@ -213,6 +213,15 @@
       </div>
     </section>
   </div>
+
+  <script>
+    var s = skrollr.init();
+    window.addEventListener("resize", function() {
+      if (window.innerWidth < 1024) {
+        s.destroy();
+      };
+    });
+  </script>
   <script type="text/javascript" src="animations.js"></script>
   <script type="text/javascript" src="modal.js"></script>
   <script type="text/javascript" src="slide-show.js"></script>
