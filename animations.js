@@ -3,15 +3,15 @@ if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navig
 }
 
 window.addEventListener('resize', function () {
-  if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera|Opera Mini/i.test(navigator.userAgent)) { // no reason to destroy on mobile
+  if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera|Opera Mini/i.test(navigator.userAgent)) {
       if (window.innerWidth <= 1024) {
-        skrollr.init().destroy(); // skrollr.init() returns the singleton created above
+        skrollr.init().destroy();
       }
   }
 
 });
 
-if (window.innerWidth > 1024) {
+if (window.innerWidth > 768) {
     gsap.registerPlugin(ScrollTrigger);
 
   gsap.to('progress', {
