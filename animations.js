@@ -24,7 +24,6 @@ gsap.from(".pr", {
   opacity: 0,
   scrollTrigger: {
     trigger: "#page-two.content",
-    markers: true
   }
 })
 
@@ -34,7 +33,6 @@ gsap.from(".ptwo-title", {
   opacity: 0,
   scrollTrigger: {
     trigger: "#page-two.content",
-    markers: true
   }
 })
 
@@ -45,7 +43,6 @@ gsap.from(".about-photo", {
   scrollTrigger: {
     trigger: "#page-three.content",
     start: 'left+=500',
-    markers: true
   }
 })
 
@@ -56,7 +53,6 @@ gsap.from(".about-info", {
   scrollTrigger: {
     trigger: "#page-three.content",
     start: 'left+=500',
-    markers: true
   }
 })
 
@@ -67,7 +63,6 @@ gsap.from(".contact-form-column", {
   scrollTrigger: {
     trigger: "#page-four.content",
     start: 'left+=750',
-    markers: true
   }
 })
 
@@ -78,7 +73,6 @@ gsap.from(".logo-column", {
   scrollTrigger: {
     trigger: "#page-four.content",
     start: 'left+=900',
-    markers: true
   }
 })
 
