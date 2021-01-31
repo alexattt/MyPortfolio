@@ -218,12 +218,8 @@
   <script type="text/javascript" src="slide-show.js"></script>
   <script>
     var s = skrollr.init();
-    var _skrollr = skrollr.get(); 
-    var windowWidth = window.innerWidth;
-    console.log(windowWidth);
-
-    if ( windowWidth <= 1024 && _skrollr !== undefined ) {
-      _skrollr.destroy();
+    if (s.isMobile()) {
+      s.destroy();
     }
   </script>
 </body>
