@@ -1,4 +1,15 @@
-var s = skrollr.init();
+if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && window.innerWidth > 1024) { 
+  skrollr.init(yourOptions);
+}
+
+window.addEventListener('resize', function () {
+  if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) { // no reason to destroy on mobile
+      if (window.innerWidth <= 1024) {
+        skrollr.init().destroy(); // skrollr.init() returns the singleton created above
+      }
+  }
+
+});
 
 gsap.registerPlugin(ScrollTrigger);
 
