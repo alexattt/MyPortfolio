@@ -215,12 +215,25 @@
   </div>
 
   <script>
-    var s = skrollr.init();
-    var _skrollr = skrollr.get(); 
-    var windowWidth = $(window).width();
+    // Test here to check if on desktop / large screens.
+    if ( $(window).width() > 1024 ) {
 
-    if ( windowWidth <= 1024 && _skrollr !== undefined ) {
-      _skrollr.destroy();
+    // Save the instance of Skrollr to the Window.
+    window.skrollrInstance = skrollr.init({
+        forceHeight: false
+    });
+
+    // If not on a large screen.
+    } else {
+
+    //  If Skrollr is NOT undefined, let's do the work.
+    if ( window.skrollrInstance !== undefined ) {
+        // Use Skrollr's destroy() method on the instance.
+        window.skrollrInstance.destroy();
+        // Now set the variable to be completely undefined.
+        window.skrollrInstance = undefined;
+    }
+
     }
   </script>
   <script type="text/javascript" src="animations.js"></script>
