@@ -21,6 +21,10 @@
   scroll-behavior: smooth;
 }
 
+html {
+  height: 100%;
+}
+
 h1, h2, h3, h4, p, a, div {
   background-color: transparent;
 }
@@ -699,8 +703,8 @@ input[type=submit]:hover {
   }
 }
 
-@media screen and (max-width:767px){
+/*@media screen and (max-width:767px){
   html, body{
      heigth: initial;
   }
-}
+}*/
