@@ -1,5 +1,5 @@
 if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && window.innerWidth > 1024) { 
-  skrollr.init(yourOptions);
+  skrollr.init();
 }
 
 window.addEventListener('resize', function () {
