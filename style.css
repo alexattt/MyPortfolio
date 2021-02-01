@@ -83,7 +83,7 @@ progress::-moz-progress-bar {
 /* ***************** MAIN PAGE ***************** */
 
 
-.blue-logo, .pink-logo, .white-logo {
+.blue-logo, .pink-logo, .white-logo, .welcome-msg, #main-page .desc {
   visibility: hidden;
 }
 
@@ -577,9 +577,9 @@ input[type=submit]:hover {
     padding: 10px;
   }
 
-  .blue-logo, .pink-logo, .white-logo {
+  .blue-logo, .pink-logo, .white-logo, .welcome-msg, #main-page .desc {
     visibility: visible;
-  }                             
+  }                     
 
   .page-one-flex {
     display: block;

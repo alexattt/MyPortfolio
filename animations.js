@@ -26,8 +26,8 @@ if (window.innerWidth > 768) {
   var tl = gsap.timeline({defaults:{opacity: 0}});
 
   function init() {
-    tl.from(".welcome-msg", {duration: 1, y: 200, opacity: 0})
-      .from(".desc", {duration: 1, y: 100, opacity: 0})
+    tl.from(".welcome-msg", {autoAlpha: 0, duration: 1, y: 200, opacity: 0})
+      .from(".desc", {autoAlpha: 0, duration: 1, y: 100, opacity: 0})
       .from(".blue-logo", {autoAlpha: 0, duration: 1, y: 100, opacity: 0})
       .from(".pink-logo", {autoAlpha: 0, duration: 0.6, x: 5, y: 5, opacity: 0})
       .from(".white-logo", {autoAlpha: 0, duration: 0.6, x: 6, y: 5, opacity: 0}, '-=0.6')
