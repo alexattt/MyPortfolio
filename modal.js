@@ -11,7 +11,6 @@ for (let i =1; i<7; i++) {
   let closeButton = document.querySelector(`.close-button${i}`);
   btn_arr.push(closeButton);
 }
-
 const togFunc_arr = [];
 
 function toggleModal1() {

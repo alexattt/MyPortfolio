@@ -123,12 +123,12 @@ header {
   text-transform: uppercase;
 }
 
-#page-one h1 {
+#main-page h1 {
   font-size: 5.8vw;
   text-align: center;
 }
 
-#page-one .desc {
+#main-page .desc {
   font-size: 2.5vw;
   text-align: center;
   background-image: -webkit-linear-gradient(left, var(--light-blue) , var(--dark-blue), var(--light-pink));
@@ -147,7 +147,7 @@ header {
   100% {background-position: left}
 }
 
-#page-one .scroll {
+#main-page .scroll {
   position: absolute;
   font-size: 1.2rem;
   padding-top: 50px;
@@ -158,7 +158,7 @@ header {
 
 /* ***************** PROJECT PAGE ***************** */
 
-#page-two {
+#projects {
   padding: 50px;
 }
 
@@ -189,7 +189,7 @@ header {
   font-style: italic;
 }
 
-#page-two h1 {
+#projects h1 {
   z-index: 2;
   font-size: 3.75vw;
   padding-bottom: 30px;
@@ -330,7 +330,7 @@ header {
 
 /* ***************** ABOUT PAGE ***************** */
 
-#page-three {
+#about {
   padding: 50px;
 }
 
@@ -382,7 +382,7 @@ header {
 
 /* ***************** CONTACT PAGE ***************** */
 
-#page-four {
+#contact {
   padding: 50px 100px;
 }
 
@@ -511,7 +511,7 @@ input[type=submit]:hover {
     overflow-x: hidden;
   }
 
-  #page-one .scroll {
+  #main-page .scroll {
     visibility: hidden;
   }
 
@@ -561,7 +561,7 @@ input[type=submit]:hover {
     height: auto;
   }
 
-  #page-two h1 {
+  #projects h1 {
     text-align: center;
   }
 }
@@ -589,7 +589,7 @@ input[type=submit]:hover {
     visibility: hidden;
   }
 
-  #page-two h1 {
+  #projects h1 {
     text-align: center;
   }
 
@@ -645,7 +645,7 @@ input[type=submit]:hover {
     width: 80%;
   }
 
-  #page-one .desc {
+  #main-page .desc {
     font-size: 18px;
   }
 
@@ -655,7 +655,7 @@ input[type=submit]:hover {
     margin-top: 0px;
   }
 
-  #page-two h1 {
+  #projects h1 {
     text-align: center;
     margin: 0;
     padding-bottom: 20px;
@@ -679,7 +679,7 @@ input[type=submit]:hover {
     margin-right: auto;
   }
 
-  #page-four {
+  #contact {
     padding: 4vw 6.25vw;
   }
 
@@ -708,13 +708,13 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-device-width: 410px) {
-  #page-two h1 {
+  #projects h1 {
     text-align: center;
     margin: 0;
     padding-bottom: 20px;
   }
 
-  #page-four {
+  #contact {
     padding: 10px;
   }
 }

@@ -45,7 +45,7 @@ if (window.innerWidth > 768) {
     y: 300,
     opacity: 0,
     scrollTrigger: {
-      trigger: "#page-two.content"
+      trigger: "#projects.content"
     }
   })
 
@@ -54,7 +54,7 @@ if (window.innerWidth > 768) {
     x: -100,
     opacity: 0,
     scrollTrigger: {
-      trigger: "#page-two.content"
+      trigger: "#projects.content"
     }
   })
 
@@ -63,7 +63,7 @@ if (window.innerWidth > 768) {
     y: -300,
     opacity: 0,
     scrollTrigger: {
-      trigger: "#page-three.content",
+      trigger: "#about.content",
       start: 'left+=500'
     }
   })
@@ -73,7 +73,7 @@ if (window.innerWidth > 768) {
     x: 100,
     opacity: 0,
     scrollTrigger: {
-      trigger: "#page-three.content",
+      trigger: "#about.content",
       start: 'left+=400'
     }
   })
@@ -83,7 +83,7 @@ if (window.innerWidth > 768) {
     y: 200,
     opacity: 0,
     scrollTrigger: {
-      trigger: "#page-four.content",
+      trigger: "#contact.content",
       start: 'left+=750'
     }
   })
@@ -93,7 +93,7 @@ if (window.innerWidth > 768) {
     x: 200,
     opacity: 0,
     scrollTrigger: {
-      trigger: "#page-four.content",
+      trigger: "#contact.content",
       start: 'left+=900'
     }
   })
