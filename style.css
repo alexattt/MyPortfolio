@@ -577,6 +577,10 @@ input[type=submit]:hover {
     padding: 10px;
   }
 
+  .blue-logo, .pink-logo, .white-logo {
+    visibility: visible;
+  }                             
+
   .page-one-flex {
     display: block;
     margin-left: auto;
