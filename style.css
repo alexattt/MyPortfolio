@@ -82,6 +82,11 @@ progress::-moz-progress-bar {
 
 /* ***************** MAIN PAGE ***************** */
 
+
+.blue-logo, .pink-logo, .white-logo {
+  visibility: hidden;
+}
+
 .page-one-flex {
   position: relative;
   display: flex;
