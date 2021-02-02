@@ -569,6 +569,30 @@ input[type=submit]:hover {
   #projects h1 {
     text-align: center;
   }
+
+  .modal1 {
+    top: 3%;
+  }
+
+  .modal2 {
+    top: 19%;
+  }
+
+  .modal3 {
+    top: 35%;
+  }
+
+  .modal4 {
+    top: 51%;
+  }
+
+  .modal5 {
+    top: 67%;
+  }
+
+  .modal6 {
+    top: 83%;
+  }
 }
 
 @media screen and (max-device-width: 768px) {
@@ -606,30 +630,6 @@ input[type=submit]:hover {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-  }
-
-  .modal1 {
-    top: 3%;
-  }
-
-  .modal2 {
-    top: 19%;
-  }
-
-  .modal3 {
-    top: 35%;
-  }
-
-  .modal4 {
-    top: 51%;
-  }
-
-  .modal5 {
-    top: 67%;
-  }
-
-  .modal6 {
-    top: 83%;
   }
 
   .project-info {
