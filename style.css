@@ -570,28 +570,32 @@ input[type=submit]:hover {
     text-align: center;
   }
 
+  .modal1, .modal2, .modal3, .modal4, .modal5, .modal6 {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
   .modal1 {
-    top: 3%;
+    top: 4%;
   }
 
   .modal2 {
-    top: 19%;
+    top: 20%;
   }
 
   .modal3 {
-    top: 35%;
+    top: 36%;
   }
 
   .modal4 {
-    top: 51%;
+    top: 52%;
   }
 
   .modal5 {
-    top: 67%;
+    top: 68%;
   }
 
   .modal6 {
-    top: 83%;
+    top: 84%;
   }
 }
 
@@ -703,6 +707,10 @@ input[type=submit]:hover {
     margin-top: 0px;
   }
 
+  .project-link {
+    margin-bottom: 10px;
+  }
+
   #projects h1 {
     text-align: center;
     margin: 0;
@@ -766,9 +774,3 @@ input[type=submit]:hover {
     padding: 10px;
   }
 }
-
-/*@media screen and (max-width:767px){
-  html, body{
-     heigth: initial;
-  }
-}*/
