@@ -516,6 +516,10 @@ input[type=submit]:hover {
     overflow-x: hidden;
   }
 
+  #main-page {
+    height: 100vh;
+  }
+
   #main-page .scroll {
     visibility: hidden;
   }
@@ -541,10 +545,6 @@ input[type=submit]:hover {
 
   .modal-content { 
     height: auto;
-  }
-
-  .project-title {
-    font-weight: bold;
   }
 
   .project-row p {
