@@ -516,10 +516,6 @@ input[type=submit]:hover {
     overflow-x: hidden;
   }
 
-  #main-page {
-    height: 100vh;
-  }
-
   #main-page .scroll {
     visibility: hidden;
   }
@@ -607,7 +603,7 @@ input[type=submit]:hover {
 
   .blue-logo, .pink-logo, .white-logo, .welcome-msg, #main-page .desc {
     visibility: visible;
-  }                     
+  }                
 
   .page-one-flex {
     display: block;
@@ -701,6 +697,10 @@ input[type=submit]:hover {
     font-size: 18px;
   }
 
+  #projects {
+    padding-top: 0px;
+  }
+
   .project-photos img {
     width: 100%;
     height: 100%;
@@ -764,6 +764,10 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-device-width: 410px) {
+  #main-page {
+    height: 100vh;
+  }
+  
   #projects h1 {
     text-align: center;
     margin: 0;
@@ -771,6 +775,7 @@ input[type=submit]:hover {
   }
 
   #contact {
+    height: 100vh;
     padding: 10px;
   }
 }
