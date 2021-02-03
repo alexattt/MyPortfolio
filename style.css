@@ -460,6 +460,7 @@ textarea {
   background-color: #49494B;
   border-radius: 15px;
   outline: none;
+  border: none;
   word-wrap: break-word;
   word-break: break-all;
   overflow-wrap: break-word;
@@ -688,6 +689,12 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-device-width: 560px) {
+
+  #main-page {
+    height: 100vh;
+    align-items: center;
+  }
+
   .myLogo {
     display: block;
     width: 80%;
@@ -736,6 +743,7 @@ input[type=submit]:hover {
   }
 
   #contact {
+    height: 100vh;
     padding: 4vw 6.25vw;
   }
 
