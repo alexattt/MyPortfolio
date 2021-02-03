@@ -763,6 +763,10 @@ input[type=submit]:hover {
     font-size: 20px;
   }
 
+  .contact-row {
+    align-items: center;
+  }
+
   .contact-form-column h1 {
     font-size: 28px;
     letter-spacing: 3px;
@@ -786,5 +790,9 @@ input[type=submit]:hover {
   #contact {
     height: 100vh;
     padding: 10px;
+  }
+
+  .contact-row {
+    align-items: center;
   }
 }
