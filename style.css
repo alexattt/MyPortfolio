@@ -483,7 +483,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  animation: bg-color 1s infinite;
+  animation: bg-color 2s alternate-reverse infinite;
 }
 
 .logo-column {
@@ -500,6 +500,18 @@ input[type=submit]:hover {
 }
 
 /* ***************** RESPONSIVE ***************** */
+
+@media screen and (min-width: 1200px) {
+  .about-desc {
+    line-height: 40px;
+  }
+
+  .content {
+    margin-top: 80px;
+  }
+
+}
+
 
 @media screen and (max-device-width: 1024px) {
   .container {
